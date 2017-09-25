@@ -19,7 +19,7 @@ This special type allow you to be sure to **always** save any DateTime to the UT
 
 The goal is to get rid of the quite hazardous timezone management of many database vendors.
 
-For more information, please read the [official Doctrine wiki page](doctrine_datetime), where this class come from.
+For more information, please read the [official Doctrine wiki page][doctrine_datetime], where this class come from.
 
 ## Setup
 
