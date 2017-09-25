@@ -1,0 +1,33 @@
+{
+    "name": "sllh/doctrine-dbal-utc-datetime",
+    "description": "UTC DateTime type for Doctrine DBAL",
+    "keywords": ["doctrine", "dbal", "datetime", "utc"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sullivan SENECHAL",
+            "email": "soullivaneuh@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "doctrine/dbal": "^2.6"
+    },
+    "suggest": {
+        "doctrine/doctrine-bundle": "For Symfony integration of the DBAL type"
+    },
+    "autoload": {
+        "psr-4": {
+            "SLLH\\Doctrine\\DBAL\\Types\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SLLH\\Tests\\Doctrine\\DBAL\\Types\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
