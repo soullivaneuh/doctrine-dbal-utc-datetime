@@ -45,8 +45,12 @@ If you are using [Symfony](http://symfony.com/), you can override the type troug
 doctrine:
     dbal:
         types:
-            datetime: SLLH\Doctrine\DBAL\Types\UTCDateTimeType
-            datetimetz: SLLH\Doctrine\DBAL\Types\UTCDateTimeType
+            datetime: 
+                class: SLLH\Doctrine\DBAL\Types\UTCDateTimeType
+                commented: false
+            datetimetz: 
+                class: SLLH\Doctrine\DBAL\Types\UTCDateTimeType
+                commented: false
 ```
 
 And voilà! You are good to go. Happy coding!
